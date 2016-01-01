@@ -1,2 +1,26 @@
 # Reporta-apps-and-backend-db
 Code for the iOS and Android versions of Reporta mobile apps as well as the backend database server
+
+Reporta Code Now Available On Github
+We’veposted here the code for both the iOS and Android apps as well as the backend server. It’s been released under GPL 3 and users are free to review, comment and reuse the code any way they like.
+We’d love to h ear your comments and suggestion on how to improve the code and additional features you’d like to see in it.  
+All we ask is that comments be reasonably respectful and made in the spirit of improving Reporta and the functions is provides users.
+We will absolutely take them to heart as we work on future releases.
+
+What’s in the public code?
+Reporta has been updated since the initial launch to reflect all the suggestions that folks made after we launched Reporta.  In addition, we've revised Reporta's Privacy Policy and Terms of Service to reflect those changes. There’s a link to the new Privacy Policy on the this same page as this blog
+It's taken a little longer than we had hoped to get this code posted-- but we have taken time to consult a number of advisors as we've been enhancing Reporta and everyone we've consulted advised that we make and test all the code changes BEFORE we release the code publically.  
+That approach makes a lot of sense--  if only because we want folks who download and look at Reporta's code to have the most up-to-date version.
+Here’s a list of changes users will see in the app versus the 1.0 version we launched in October.
+  
+-All analytics and crashlytics removed from the app as well as the backend database
+  -Enhanced encryption of data on the user's phone as well as more aggressive deletion of data from the phone once it's no longer needed to run the app
+  
+-Enhanced encryption of data on the backend server
+  -Revised data retention procedures that delete all server data related to an alert or check-in as soon as that activity is completed. 
+
+-Improvements to translations
+  
+-Lots of smaller tweaks to the apps run more smoothly and minimize data collected
+We encourage you to provide us your feedback and thoughts about the project. Feel free to leave comments via the Github project page or email them to us directly at techfeedback@reporta.org
+
