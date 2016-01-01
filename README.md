@@ -1,10 +1,12 @@
 # Reporta-apps-and-backend-db
-Code for the iOS and Android versions of Reporta mobile apps as well as the backend database server
+Code for the iOS version of Reporta mobile apps as well as the backend database server. Android to be posted shortly
 
 Reporta Code Now Available On Github
-We’veposted here the code for both the iOS and Android apps as well as the backend server. It’s been released under GPL 3 and users are free to review, comment and reuse the code any way they like.
-We’d love to h ear your comments and suggestion on how to improve the code and additional features you’d like to see in it.  
+We’veposted here the code for both the iOS version of th app as well as the backend server. Android will be available shortly It’s been released under GPL 3 and users are free to review, comment and reuse the code any way they like.
+
+We’d love to hear your comments and suggestion on how to improve the code and additional features you’d like to see in it.  
 All we ask is that comments be reasonably respectful and made in the spirit of improving Reporta and the functions is provides users.
+
 We will absolutely take them to heart as we work on future releases.
 
 What’s in the public code?
@@ -22,5 +24,6 @@ Here’s a list of changes users will see in the app versus the 1.0 version we l
 -Improvements to translations
   
 -Lots of smaller tweaks to the apps run more smoothly and minimize data collected
+
 We encourage you to provide us your feedback and thoughts about the project. Feel free to leave comments via the Github project page or email them to us directly at techfeedback@reporta.org
 
