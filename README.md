@@ -8,6 +8,21 @@ All we ask is that comments and contributions be reasonably respectful and made 
 
 We will absolutely take them to heart as we work on future releases.
 
+**************************************************************************************
+
+One of the things we're most interested in exploring is the best data encryption methodology for the mobile apps and their connection back to the server. The initial release of the apps, and this public release, primarily deploy iOS's and Android's native encryption. We've tweaked it in this public release based on feedback received from our circle of advisers and others in the digital freedom community.
+
+We've had numerous discussions regarding the best encryption implementation possible within Reporta's use case. That use case presents two big challenges for implementing encryption. First is the need for a remote server--the app MUST use the backend server so that alerts can be sent even if a user's phone is unavailable. When conducting our user research we consistently heard from journalists in the field that when being harassed, their phone is almost always taken from them. So moving the alert process off the phone to the server is critical to the app's effectiveness.
+
+The second challenge is that Reporta must be able to send alerts in clear text so recipients don't need a client to decrypt any alerts the app sends when a journalist is in danger. So point to point encryption (which is almost always the best solution from a pure security perspective) just isn't a workable approach.
+
+So you can see that implementing encryption on the app is not simple. While there are lots of options, no approach arose in discussions that appeared superior, given our use case, the the native encryption tools.
+
+We're VERY interested in seeing if others, once they've taken a look at things, have some useful suggestions
+
+***************************************************************************************
+
+
 What’s in the public code?
 
 Reporta has been updated since the initial launch to reflect all the suggestions that folks made after we launched Reporta.  In addition, we've revised Reporta's Privacy Policy and Terms of Service to reflect those changes. There’s a link to the new Privacy Policy on www.reporta.org
